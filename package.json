@@ -1,0 +1,21 @@
+{
+  "name": "next-qrcodenft",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "ethers": "^5.7.2",
+    "next": "13.1.6",
+    "qrcode": "^1.5.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-qr-reader": "^2.1.1"
+  }
+}
